@@ -1,19 +1,19 @@
 abstract class BaseComponent {
-  protected readonly page: Page
-  protected readonly locator: Locator
+    protected readonly page: Page
+    protected readonly locator: Locator
 
-  constructor(page: Page, locator: Locator) {
-    this.page = page
-    this.locator = locator
-  }
+    constructor(page: Page, locator: Locator) {
+        this.page = page
+        this.locator = locator
+    }
 
-  async isVisible() {
-    return this.locator.isVisible()
-  }
+    async isVisible() {
+        return this.locator.isVisible()
+    }
 
-  async isEnabled() {
-    return this.locator.isEnabled()
-  }
+    async isEnabled() {
+        return this.locator.isEnabled()
+    }
 }
 
 export default BaseComponent
