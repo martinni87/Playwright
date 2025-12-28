@@ -1,6 +1,6 @@
 import BaseComponent from './BaseComponent'
 
-class Button extends BaseComponent {
+export default class Button extends BaseComponent {
 
     constructor(page: Page, locator: Locator) {
         super(page, locator)
@@ -14,5 +14,3 @@ class Button extends BaseComponent {
         await this.locator.hover()
     }
 }
-
-export default Button

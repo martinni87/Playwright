@@ -1,4 +1,4 @@
-abstract class BaseComponent {
+export default abstract class BaseComponent {
     protected readonly page: Page
     protected readonly locator: Locator
 
@@ -15,5 +15,3 @@ abstract class BaseComponent {
         return this.locator.isEnabled()
     }
 }
-
-export default BaseComponent

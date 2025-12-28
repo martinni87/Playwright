@@ -8,6 +8,5 @@ export class HomeScreen {
         this.page = page
         this.startExploringButton = new Button(this.page, this.page.locator('a[href="/explore"]'))
     }
-
 }
 
