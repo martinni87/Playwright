@@ -1,5 +1,5 @@
-import { test, expect, Page, Locator } from '@playwright/test'
-import { HomeScreen } from '../Models/HomeScreen'
+import { test, expect, Page, Locator } from '@playwright/test';
+import { HomeScreen } from '../Models/HomeScreen';
 
 class Site {
   url: string
