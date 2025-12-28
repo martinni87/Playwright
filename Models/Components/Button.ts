@@ -1,3 +1,4 @@
+import { test, expect, Page, Locator } from '@playwright/test'
 import BaseComponent from './BaseComponent'
 
 export default class Button extends BaseComponent {

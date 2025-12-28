@@ -1,3 +1,5 @@
+import { test, expect, Page, Locator } from '@playwright/test'
+
 export default abstract class BaseComponent {
     protected readonly page: Page
     protected readonly locator: Locator
