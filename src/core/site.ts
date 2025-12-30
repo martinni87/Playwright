@@ -2,9 +2,9 @@ import { expect, Page } from '@playwright/test';
 
 export class Site {
 
-constructor(
-    private readonly url: string, 
-    private readonly title: string) {}
+    constructor(
+        private readonly url: string,
+        private readonly title: string) { }
 
     get getUrlObject(): URL {
         return new URL(this.url)

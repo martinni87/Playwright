@@ -24,11 +24,3 @@ export class HomePage extends BasePage {
         this.startExploringButton = new Button(page.locator('a[href="/explore"]'))
     }
 }
-
-        // this.logo = new WebElement(page.locator("img[title='Cnarios logo']").first())
-        // this.buttons = {
-        //     features: new Button(page.locator('nav.MuiAppBar-root a[href="/#features"]')),
-        //     howItWorks: new Button(page.locator('nav.MuiAppBar-root a[href="/#how-it-works"]')),
-        //     contactUs: new Button(page.locator('nav.MuiAppBar-root a[href="/#contact-us"]')),
-        //     blog: new Button(page.locator('nav.MuiAppBar-root a[href="/#blogs"]')),
-        // }

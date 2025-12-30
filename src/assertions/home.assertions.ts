@@ -2,7 +2,7 @@ import { expect } from '@playwright/test';
 import { HomePage } from '../pages/home.page';
 
 export class HomeAssertions {
-  constructor(private readonly home: HomePage) {}
+  constructor(private readonly home: HomePage) { }
 
   async allElementsVisible() {
     expect(await this.home.startExploringButton.isVisible()).toBe(true);

@@ -2,7 +2,7 @@ import { Locator } from '@playwright/test'
 
 export class WebElement {
 
-    constructor(protected readonly locator: Locator) {}
+    constructor(protected readonly locator: Locator) { }
 
     async isVisible() {
         return await this.locator.isVisible()
