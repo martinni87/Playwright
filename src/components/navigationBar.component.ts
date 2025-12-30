@@ -12,7 +12,7 @@ export class NavigationBar extends WebElement {
 
     constructor(root: Locator, config: NavigationBarConfig) {
         super(root)
-        
+
         for (const [name, selector] of Object.entries(config.buttons)) {
             this.buttons[name] = new Button(root.locator(selector))
         }
