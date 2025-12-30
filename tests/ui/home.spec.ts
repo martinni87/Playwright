@@ -21,5 +21,3 @@ test('User starts exploring', async ({ page }) => {
   await home.startExploringButton.click()
   await assert.urlIs('/explore')
 })
-
-//Test
